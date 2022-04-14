@@ -62,11 +62,11 @@ body {
   width: 1000px;
 }
 
-#title_featured {
-  margin-top: 2rem;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",  Helvetica, Arial, "Lucida Grande", sans-serif;
-  color: #b30101;
-  font-size: 60px;
+#cards {
+  height: 10%;
+  width: 15%;
+  margin-top: 14rem;
+  margin-bottom: 14rem;
 }
 
 /*!
