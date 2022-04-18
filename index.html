@@ -27,6 +27,7 @@
 </head>
 
 <body>
+    <div class="main_container">
 <!-- Header -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-black">
         <div class="container-fluid">
@@ -51,7 +52,7 @@
         </div>
     </nav>
 
-    <main class="container-fluid vh-100 d-flex align-items-center justify-content-around">
+    <main class="content">
             <!-- Lado Izquierdo -->
                 <div id="titles">
                     <h1 id="title_main" > This ain't just a company</h1>
@@ -59,46 +60,41 @@
                 </div>
 
         <!-- Lado Derecho -->
-        <div class="row">
-            <div class="container-fluid col-sm-12">
-                <p> <iframe width="560" height="315" src="https://www.youtube.com/embed/QkkoHAzjnUs"
+             <iframe class="iframe" src="https://www.youtube.com/embed/QkkoHAzjnUs"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe> </p>
-            </div>
-        </div>
+                        allowfullscreen></iframe> 
 
     </main>
-    <footer class="container-fluid col-sm-12 bg-black d-flex align-items-center justify-content-around" id="footer">
-            <div>
-                <!-- Logo Social Club -->
-                <a href="https://socialclub.rockstargames.com/">
-                    <img src="./Imagenes/social club png.png" alt="Logotipo de Socialclub" width="auto" height="75px">
-                </a>
-            </div>
-            <!-- Copyright text -->
-            <div>
-                <p style="color: white;"> Copyright © 2022 All rights reserved. </p>
-            </div>
 
+    <footer class="container-fluid bg-black col-sm-12 d-flex align-items-center justify-content-around footer" >
+
+            <!-- Logo Social Club -->
+                <a href="https://socialclub.rockstargames.com/">
+                    <img class="footer_img" src="./Imagenes/social club png.png" alt="Logotipo de Socialclub">
+                </a>
+            <!-- Copyright text -->
+   
+                <p class="footer_text" style="color: white;"> Copyright © 2022 All rights reserved. </p>
+                
             <!-- Redes Sociales -->
-            <div class="d-flex align-items-center justify-content-between">
+            <div class="d-flex align-items-center footer_social_wrapper">
                 <a href="https://www.instagram.com/rockstargames/?hl=es">
-                    <img src="./Imagenes/white-instagram-logo-transparent-background-7740.png" alt="Logotipo de Socialclub" width="50px" height="50px"> </img>
+                    <img class="footer_social" src="./Imagenes/white-instagram-logo-transparent-background-7740.png" alt="Logotipo de Socialclub"> </img>
                 </a>
 
                 <a href="https://open.spotify.com/user/rockstargames?si=6b2cb6e89d514f40" >
-                    <img src="./Imagenes/spotify.png" alt="Logotipo de Socialclub" width="50px" height="50px">
+                    <img class="footer_social" src="./Imagenes/spotify.png" alt="Logotipo de Socialclub">
                 </a>
 
                 <a href="https://www.youtube.com/c/RockstarGames/videos">
-                    <img src="./Imagenes/yt.png" alt="Logotipo de Socialclub" width="50px" height="50px">
+                    <img class="footer_social" src="./Imagenes/yt.png" alt="Logotipo de Socialclub">
                 </a>
             </div>
 
         </div>
     </footer>
-
+</div>
 
     <!-- AOS Animation JS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
